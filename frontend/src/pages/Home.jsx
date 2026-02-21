@@ -148,6 +148,9 @@ const Home = ({ user, onLogout }) => {
 
             {/* Sidebar */}
             <aside className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
+                <button className="sidebar-close-btn" onClick={() => setIsSidebarOpen(false)}>
+                    <X size={24} />
+                </button>
                 <div className="sidebar-logo">
                     <img src="/images/logo.JPG" alt="Logo" />
                     <h2>AgricBot</h2>

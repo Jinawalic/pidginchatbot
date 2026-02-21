@@ -53,6 +53,20 @@ body {
   padding: 24px;
   z-index: 20;
   transition: transform 0.3s ease;
+  position: relative;
+}
+
+.sidebar-close-btn {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  color: var(--text-main);
+  cursor: pointer;
+  padding: 8px;
+  z-index: 25;
 }
 
 .sidebar-logo {
@@ -406,6 +420,10 @@ body {
     transform: translateX(0);
   }
 
+  .sidebar-close-btn {
+    display: block;
+  }
+
   .sidebar-overlay {
     position: fixed;
     top: 0;
@@ -417,7 +435,7 @@ body {
     display: none;
   }
 
-  .sidebar-overlay.alpha {
+  .sidebar-overlay.visible {
     display: block;
   }
 }

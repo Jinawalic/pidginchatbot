@@ -14,7 +14,7 @@ const ChatWindow = ({ messages, isTyping }) => {
         <div className="chat-window" ref={scrollRef}>
             {messages.length === 0 ? (
                 <div style={{ textAlign: 'center', color: '#888', marginTop: '20px' }}>
-                    No messages yet. Start by asking about planting!
+                    Welcome! wetin you wan ask?
                 </div>
             ) : (
                 <>

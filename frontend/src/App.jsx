@@ -36,7 +36,7 @@ function App() {
 
     if (!user) {
         return (
-            <div className="login-screen-container" style={{ background: 'var(--background)', height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '20px' }}>
+            <div className="login-screen-container" style={{ background: 'var(--background)', height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '18px' }}>
                 <div className="login-card" style={{ maxWidth: '400px', width: '100%' }}>
                     <div style={{ textAlign: 'center', marginBottom: '24px' }}>
                         <img src="/images/logo.JPG" alt="Logo" style={{ width: '100px', height: '100px', marginBottom: '8px', objectFit: 'contain' }} />
