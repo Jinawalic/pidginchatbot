@@ -1,0 +1,682 @@
+[
+    {
+        "question": "how i fit plant maize",
+        "answer": "Plant am when rain don start well and use better seed."
+    },
+    {
+        "question": "when be best time to plant rice",
+        "answer": "Plant rice when rain dey steady and ground get enough water."
+    },
+    {
+        "question": "how i fit stop pest for my farm",
+        "answer": "Keep farm clean and use approved pesticide."
+    },
+    {
+        "question": "wetin cause crop to turn yellow",
+        "answer": "E fit be lack of fertilizer or too much water."
+    },
+    {
+        "question": "how often i go water my crops",
+        "answer": "Water dem every morning or evening if rain no fall."
+    },
+    {
+        "question": "which fertilizer good for maize",
+        "answer": "NPK fertilizer good to help maize grow well."
+    },
+    {
+        "question": "how i fit know good seed",
+        "answer": "Good seed big, clean and no get holes."
+    },
+    {
+        "question": "how to control weed",
+        "answer": "Remove weed by hand or use herbicide."
+    },
+    {
+        "question": "why my cassava no grow well",
+        "answer": "Soil fit no good or you no use healthy stem."
+    },
+    {
+        "question": "how long maize take grow",
+        "answer": "Maize dey ready in about three months."
+    },
+    {
+        "question": "wetin be crop rotation",
+        "answer": "Na when you change crops for same land every season."
+    },
+    {
+        "question": "why crop rotation important",
+        "answer": "E help soil get strength and reduce pests."
+    },
+    {
+        "question": "how to prepare land for planting",
+        "answer": "Clear bush, remove weed and till the soil."
+    },
+    {
+        "question": "wetin be organic fertilizer",
+        "answer": "Na natural manure like animal dung or compost."
+    },
+    {
+        "question": "how i fit make compost",
+        "answer": "Gather leaves, food waste and allow am decay."
+    },
+    {
+        "question": "why my tomato dey spoil quick",
+        "answer": "E fit be disease or too much moisture."
+    },
+    {
+        "question": "how to prevent tomato disease",
+        "answer": "Use healthy seed and avoid too much watering."
+    },
+    {
+        "question": "how deep i go plant maize seed",
+        "answer": "Plant am about two inches deep."
+    },
+    {
+        "question": "why my plant dey bend",
+        "answer": "Wind or weak stem fit cause am."
+    },
+    {
+        "question": "how to support weak plants",
+        "answer": "Use stick or rope to hold the plant."
+    },
+    {
+        "question": "wetin be irrigation",
+        "answer": "Na method to supply water to crops."
+    },
+    {
+        "question": "how i fit save water for farm",
+        "answer": "Use drip irrigation and water early morning."
+    },
+    {
+        "question": "why soil erosion bad",
+        "answer": "E remove top soil wey crops need."
+    },
+    {
+        "question": "how to stop soil erosion",
+        "answer": "Plant cover crops and make ridges."
+    },
+    {
+        "question": "wetin be mixed farming",
+        "answer": "Na when you grow crops and rear animals together."
+    },
+    {
+        "question": "how to store maize",
+        "answer": "Dry am well before you keep am."
+    },
+    {
+        "question": "why my yam rot",
+        "answer": "Too much moisture fit cause yam to rot."
+    },
+    {
+        "question": "how to plant yam",
+        "answer": "Plant yam setts inside mound."
+    },
+    {
+        "question": "when to harvest cassava",
+        "answer": "Cassava ready after 9 to 12 months."
+    },
+    {
+        "question": "how to increase farm yield",
+        "answer": "Use good seed, fertilizer and control pests."
+    },
+    {
+        "question": "wetin be greenhouse farming",
+        "answer": "Na growing crops inside covered structure."
+    },
+    {
+        "question": "why greenhouse good",
+        "answer": "E protect crops from bad weather."
+    },
+    {
+        "question": "how to rear chicken",
+        "answer": "Give dem good food, water and clean house."
+    },
+    {
+        "question": "wetin chicken dey eat",
+        "answer": "Dem fit chop grains, feed and kitchen waste."
+    },
+    {
+        "question": "how to prevent chicken disease",
+        "answer": "Keep their house clean and vaccinate dem."
+    },
+    {
+        "question": "how long egg take hatch",
+        "answer": "Egg dey hatch after 21 days."
+    },
+    {
+        "question": "how to rear goat",
+        "answer": "Give dem grass, water and shelter."
+    },
+    {
+        "question": "why goat dey fall sick",
+        "answer": "Dirty environment or bad food fit cause am."
+    },
+    {
+        "question": "how to identify sick animal",
+        "answer": "Animal go weak, no chop and look dull."
+    },
+    {
+        "question": "wetin be livestock farming",
+        "answer": "Na raising animals for food and money."
+    },
+    {
+        "question": "how to plant pepper",
+        "answer": "Plant seed in nursery then transplant am."
+    },
+    {
+        "question": "why pepper dey small",
+        "answer": "Soil no rich or lack of fertilizer."
+    },
+    {
+        "question": "how to improve soil fertility",
+        "answer": "Add manure and practice crop rotation."
+    },
+    {
+        "question": "wetin be pest control",
+        "answer": "Na way to stop insects from damaging crops."
+    },
+    {
+        "question": "how to plant okra",
+        "answer": "Plant seed directly inside soil."
+    },
+    {
+        "question": "how long okra take grow",
+        "answer": "Okra ready after 45 to 60 days."
+    },
+    {
+        "question": "why leaves dey get holes",
+        "answer": "Insects fit chop the leaves."
+    },
+    {
+        "question": "how to stop insects",
+        "answer": "Use natural spray or approved chemicals."
+    },
+    {
+        "question": "wetin be nursery bed",
+        "answer": "Na small place to raise young plants."
+    },
+    {
+        "question": "why transplant seedlings",
+        "answer": "To give dem more space to grow."
+    },
+    {
+        "question": "how to plant beans",
+        "answer": "Plant beans seed inside moist soil."
+    },
+    {
+        "question": "how long beans take grow",
+        "answer": "Beans ready after two months."
+    },
+    {
+        "question": "why my beans no germinate",
+        "answer": "Seed fit bad or soil too dry."
+    },
+    {
+        "question": "how to plant groundnut",
+        "answer": "Plant seed inside loose soil."
+    },
+    {
+        "question": "when to harvest groundnut",
+        "answer": "Harvest when leaves turn yellow."
+    },
+    {
+        "question": "how to dry groundnut",
+        "answer": "Spread am under sun for some days."
+    },
+    {
+        "question": "why weeds grow fast",
+        "answer": "Rain and fertile soil help dem grow."
+    },
+    {
+        "question": "how to control farm grass",
+        "answer": "Slash or use herbicide."
+    },
+    {
+        "question": "wetin be farm tools",
+        "answer": "Na tools like hoe, cutlass and rake."
+    },
+    {
+        "question": "how to maintain farm tools",
+        "answer": "Clean and keep dem dry after use."
+    },
+    {
+        "question": "why rain important for crops",
+        "answer": "Rain give crops water to grow."
+    },
+    {
+        "question": "wetin drought mean",
+        "answer": "Na long time without rain."
+    },
+    {
+        "question": "how to farm during drought",
+        "answer": "Use irrigation and plant drought-resistant crops."
+    },
+    {
+        "question": "why my soil hard",
+        "answer": "Lack of organic matter fit cause am."
+    },
+    {
+        "question": "how to soften hard soil",
+        "answer": "Add compost and till the soil."
+    },
+    {
+        "question": "how to plant banana",
+        "answer": "Plant sucker inside fertile soil."
+    },
+    {
+        "question": "when banana ready to harvest",
+        "answer": "After 9 to 12 months."
+    },
+    {
+        "question": "how to protect farm from animals",
+        "answer": "Use fence around the farm."
+    },
+    {
+        "question": "why birds dey chop crops",
+        "answer": "Dem dey find food."
+    },
+    {
+        "question": "how to scare birds",
+        "answer": "Use scarecrow or shiny objects."
+    },
+    {
+        "question": "how to plant watermelon",
+        "answer": "Plant seed in sunny place."
+    },
+    {
+        "question": "how long watermelon take grow",
+        "answer": "E ready after about three months."
+    },
+    {
+        "question": "why fruits dey fall before ripe",
+        "answer": "Lack of nutrients or water stress."
+    },
+    {
+        "question": "how to prevent fruit drop",
+        "answer": "Water well and add fertilizer."
+    },
+    {
+        "question": "wetin be farm record",
+        "answer": "Na writing details of farm work."
+    },
+    {
+        "question": "why farm record important",
+        "answer": "E help you track profit and losses."
+    },
+    {
+        "question": "how to market farm produce",
+        "answer": "Sell for local market or to buyers."
+    },
+    {
+        "question": "how to store vegetables",
+        "answer": "Keep dem in cool dry place."
+    },
+    {
+        "question": "why vegetables dey spoil",
+        "answer": "Too much heat and moisture cause am."
+    },
+    {
+        "question": "how to reduce spoilage",
+        "answer": "Store properly and sell quickly."
+    },
+    {
+        "question": "wetin be sustainable farming",
+        "answer": "Na farming wey protect soil and environment."
+    },
+    {
+        "question": "why trees important for farm",
+        "answer": "Trees give shade and protect soil."
+    },
+    {
+        "question": "how to plant tree",
+        "answer": "Dig hole, put seedling and cover with soil."
+    },
+    {
+        "question": "how long tree take grow",
+        "answer": "Some trees take many years to mature."
+    },
+    {
+        "question": "why farm need sunlight",
+        "answer": "Sunlight help plants make food."
+    },
+    {
+        "question": "wetin be fertilizer application",
+        "answer": "Na putting nutrients into soil."
+    },
+    {
+        "question": "how to apply fertilizer",
+        "answer": "Spread am around plant and water am."
+    },
+    {
+        "question": "why over-fertilizer bad",
+        "answer": "E fit burn plants and spoil soil."
+    },
+    {
+        "question": "how to test soil",
+        "answer": "Use soil test kit or visit extension office."
+    },
+    {
+        "question": "who fit help farmers",
+        "answer": "Extension officers fit guide farmers."
+    },
+    {
+        "question": "how i fit plant sorghum",
+        "answer": "Plant sorghum seed for well prepared soil when rain start."
+    },
+    {
+        "question": "when sorghum ready to harvest",
+        "answer": "E ready after about four months."
+    },
+    {
+        "question": "how to plant millet",
+        "answer": "Sow millet seed for loose soil and cover am small."
+    },
+    {
+        "question": "why millet good for dry areas",
+        "answer": "Millet fit survive with small rain."
+    },
+    {
+        "question": "how to control aphids",
+        "answer": "Spray soap water or approved pesticide."
+    },
+    {
+        "question": "wetin aphids dey do to crops",
+        "answer": "Dem suck plant juice and weaken crops."
+    },
+    {
+        "question": "how to plant cabbage",
+        "answer": "Start for nursery then transplant to field."
+    },
+    {
+        "question": "when cabbage ready to harvest",
+        "answer": "Harvest when head don form well."
+    },
+    {
+        "question": "why cabbage leaves dey fold",
+        "answer": "E normal as the head dey form."
+    },
+    {
+        "question": "how to protect cabbage from worms",
+        "answer": "Use net or safe pesticide."
+    },
+    {
+        "question": "how to plant carrot",
+        "answer": "Plant carrot seed direct for soft soil."
+    },
+    {
+        "question": "why carrot no grow straight",
+        "answer": "Hard soil fit cause am bend."
+    },
+    {
+        "question": "how to make soil loose",
+        "answer": "Add sand or compost and till am."
+    },
+    {
+        "question": "how to plant cucumber",
+        "answer": "Plant seed for sunny place with enough water."
+    },
+    {
+        "question": "why cucumber bitter",
+        "answer": "Lack of water or too much heat fit cause am."
+    },
+    {
+        "question": "how to plant lettuce",
+        "answer": "Sow seed and keep soil moist."
+    },
+    {
+        "question": "when lettuce ready to harvest",
+        "answer": "Harvest after one month."
+    },
+    {
+        "question": "how to prevent leaf burn",
+        "answer": "Water early morning and avoid hot sun."
+    },
+    {
+        "question": "why leaves dey curl",
+        "answer": "Pests or lack of water fit cause am."
+    },
+    {
+        "question": "how to control leaf curl",
+        "answer": "Remove affected leaves and spray pesticide."
+    },
+    {
+        "question": "how to plant pineapple",
+        "answer": "Plant pineapple crown for fertile soil."
+    },
+    {
+        "question": "how long pineapple take grow",
+        "answer": "E take about 18 months to mature."
+    },
+    {
+        "question": "why pineapple leaves dey dry",
+        "answer": "Lack of water fit cause am."
+    },
+    {
+        "question": "how to plant pawpaw",
+        "answer": "Plant seeds for sunny area with good soil."
+    },
+    {
+        "question": "when pawpaw start fruit",
+        "answer": "After about six months."
+    },
+    {
+        "question": "why pawpaw tree no fruit",
+        "answer": "Tree fit be male or lack nutrients."
+    },
+    {
+        "question": "how to plant orange",
+        "answer": "Plant seedling for deep fertile soil."
+    },
+    {
+        "question": "when orange ready to harvest",
+        "answer": "Harvest when fruit turn orange color."
+    },
+    {
+        "question": "how to protect fruits from bats",
+        "answer": "Use net to cover the trees."
+    },
+    {
+        "question": "why fruit skin dey crack",
+        "answer": "Irregular watering fit cause am."
+    },
+    {
+        "question": "how to rear fish",
+        "answer": "Use pond with clean water and feed dem well."
+    },
+    {
+        "question": "wetin fish dey eat",
+        "answer": "Dem chop fish feed and small insects."
+    },
+    {
+        "question": "how to keep pond clean",
+        "answer": "Change water and remove waste."
+    },
+    {
+        "question": "why fish dey die",
+        "answer": "Dirty water or lack of oxygen fit cause am."
+    },
+    {
+        "question": "how to know fish ready for sale",
+        "answer": "Fish go big and reach market size."
+    },
+    {
+        "question": "wetin be aquaculture",
+        "answer": "Na fish farming for ponds or tanks."
+    },
+    {
+        "question": "how to rear turkey",
+        "answer": "Give dem feed, water and clean shelter."
+    },
+    {
+        "question": "why turkey dey fight",
+        "answer": "Dem dey fight for space or food."
+    },
+    {
+        "question": "how to prevent animal overcrowding",
+        "answer": "Give enough space for animals."
+    },
+    {
+        "question": "wetin be animal vaccination",
+        "answer": "Na injection to prevent disease."
+    },
+    {
+        "question": "how to plant spinach",
+        "answer": "Sow seed and keep soil moist."
+    },
+    {
+        "question": "when spinach ready to harvest",
+        "answer": "Harvest after three to four weeks."
+    },
+    {
+        "question": "why spinach leaves yellow",
+        "answer": "Lack of nutrients fit cause am."
+    },
+    {
+        "question": "how to plant sweet potato",
+        "answer": "Plant vine cuttings on ridges."
+    },
+    {
+        "question": "when sweet potato ready",
+        "answer": "Harvest after three to four months."
+    },
+    {
+        "question": "why sweet potato leaves get holes",
+        "answer": "Insects fit chop the leaves."
+    },
+    {
+        "question": "how to control rodents on farm",
+        "answer": "Use traps and keep farm clean."
+    },
+    {
+        "question": "why rats dey spoil crops",
+        "answer": "Dem dey find food and shelter."
+    },
+    {
+        "question": "how to protect stored grains",
+        "answer": "Keep dem for airtight container."
+    },
+    {
+        "question": "why grains get weevils",
+        "answer": "Poor storage fit cause insect attack."
+    },
+    {
+        "question": "how to dry pepper",
+        "answer": "Spread am under sun till e dry well."
+    },
+    {
+        "question": "how to store dried pepper",
+        "answer": "Keep am inside dry airtight container."
+    },
+    {
+        "question": "why mold dey grow on food",
+        "answer": "Moisture fit cause mold growth."
+    },
+    {
+        "question": "how to prevent mold",
+        "answer": "Store food for dry place."
+    },
+    {
+        "question": "wetin be farm cooperative",
+        "answer": "Na group of farmers wey work together."
+    },
+    {
+        "question": "why join cooperative",
+        "answer": "E help farmers get loans and market."
+    },
+    {
+        "question": "how to access farm loan",
+        "answer": "Join cooperative or visit bank."
+    },
+    {
+        "question": "why farm insurance important",
+        "answer": "E protect farmers from losses."
+    },
+    {
+        "question": "how to reduce farm cost",
+        "answer": "Buy inputs in bulk and plan well."
+    },
+    {
+        "question": "how to plan farm budget",
+        "answer": "Write down expenses and expected profit."
+    },
+    {
+        "question": "wetin be agroforestry",
+        "answer": "Na planting trees with crops together."
+    },
+    {
+        "question": "why agroforestry good",
+        "answer": "E improve soil and give shade."
+    },
+    {
+        "question": "how to plant cover crops",
+        "answer": "Sow crops like legumes to cover soil."
+    },
+    {
+        "question": "why cover crops important",
+        "answer": "Dem prevent erosion and add nutrients."
+    },
+    {
+        "question": "how to manage farm waste",
+        "answer": "Turn am to compost."
+    },
+    {
+        "question": "wetin be mulching",
+        "answer": "Na covering soil with dry leaves or straw."
+    },
+    {
+        "question": "why mulching good",
+        "answer": "E keep soil moist and stop weeds."
+    },
+    {
+        "question": "how to apply mulch",
+        "answer": "Spread dry leaves around plants."
+    },
+    {
+        "question": "why soil dey lose nutrients",
+        "answer": "Continuous farming without manure cause am."
+    },
+    {
+        "question": "how to restore soil nutrients",
+        "answer": "Add compost and rotate crops."
+    },
+    {
+        "question": "how to plant soybeans",
+        "answer": "Plant seeds for well drained soil."
+    },
+    {
+        "question": "when soybeans ready",
+        "answer": "Harvest after three to four months."
+    },
+    {
+        "question": "why soybean important",
+        "answer": "E rich in protein and improve soil."
+    },
+    {
+        "question": "how to control fungal disease",
+        "answer": "Use fungicide and avoid overcrowding."
+    },
+    {
+        "question": "why plants need spacing",
+        "answer": "Spacing help dem get sunlight and air."
+    },
+    {
+        "question": "how to measure plant spacing",
+        "answer": "Use ruler or rope to guide distance."
+    },
+    {
+        "question": "how to plant onions",
+        "answer": "Plant bulbs or seeds in loose soil."
+    },
+    {
+        "question": "when onion ready to harvest",
+        "answer": "Harvest when leaves fall over."
+    },
+    {
+        "question": "why onion bulbs small",
+        "answer": "Poor soil nutrients fit cause am."
+    },
+    {
+        "question": "how to improve onion size",
+        "answer": "Use fertilizer and proper spacing."
+    }
+]
