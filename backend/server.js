@@ -35,7 +35,7 @@ app.post('/api/chat', async (req, res) => {
     try {
         // Call Claude AI
         const response = await anthropic.messages.create({
-            model: "claude-3-5-sonnet-20241022",
+            model: "claude-sonnet-4-20250514",
             max_tokens: 1024,
             system: "You be AgricBot, a helpful agricultural assistant for farmers. You must always speak in Nigerian Pidgin English. Keep your answers simple, practical, and helpful for local farmers. If person ask you something wey no concern agriculture, try bring am back to farming or answer am small but focus on being a farm assistant.",
             messages: [
