@@ -8,7 +8,8 @@ export default defineConfig({
         port: 3001,
         proxy: {
             '/api': {
-                target: 'https://backendd-eta.vercel.app/',
+                // target: 'https://backendd-eta.vercel.app/',
+                target: 'http://localhost:5001',
                 changeOrigin: true
             }
         }
