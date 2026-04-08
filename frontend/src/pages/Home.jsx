@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { PlusCircle, MessageSquare, Settings, LogOut, Menu, X } from 'lucide-react';
 import ChatWindow from '../components/ChatWindow';
 import MessageInput from '../components/MessageInput';
+import { apiCall } from '../config/api';
 
 const Home = ({ user, onLogout }) => {
     const [allMessages, setAllMessages] = useState([]); // Store everything from backend
@@ -14,13 +15,13 @@ const Home = ({ user, onLogout }) => {
     // Fetch all responses and full history on mount
     useEffect(() => {
         // Get chatbot canned responses
-        fetch('/api/responses')
+        apiCall('/responses')
             .then(res => res.json())
             .then(data => setBotResponses(data))
             .catch(err => console.error('Error fetching responses:', err));
 
         // Get user history
-        fetch(`/api/history/${user.userId}`)
+        apiCall(`/history/${user.userId}`)
             .then(res => res.json())
             .then(data => {
                 setAllMessages(data);
@@ -67,7 +68,7 @@ const Home = ({ user, onLogout }) => {
 
         try {
             // 3. Get AI Response from Backend
-            const response = await fetch('/api/chat', {
+            const response = await apiCall('/chat', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ question: text })
@@ -86,7 +87,7 @@ const Home = ({ user, onLogout }) => {
             setIsTyping(false);
 
             // 4. Save to backend history
-            await fetch('/api/save-chat', {
+            await apiCall('/save-chat', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ ...userMsg, answer: answer })

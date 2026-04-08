@@ -9,12 +9,14 @@ export default defineConfig({
         proxy: {
             '/api': {
                 target: 'https://backendd-eta.vercel.app/',
-                // target: 'http://localhost:5001',
                 changeOrigin: true
             }
         }
     },
     build: {
         outDir: 'build'
+    },
+    define: {
+        'import.meta.env.VITE_API_URL': JSON.stringify(process.env.VITE_API_URL || '/api')
     }
 })
