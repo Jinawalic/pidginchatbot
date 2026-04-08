@@ -46,14 +46,6 @@ const Home = ({ user, onLogout }) => {
     };
 
     const handleSendMessage = async (text) => {
-        let answer = "I no get answer for this question now, check am later.";
-        const lowerText = text.toLowerCase().trim();
-        const match = botResponses.find(r =>
-            r.question.toLowerCase().trim() === lowerText
-        );
-
-        if (match) answer = match.answer;
-
         const existingSession = allMessages.find(m => m.sessionId === currentSessionId);
         const title = existingSession ? existingSession.title : generateTitle(text);
 
@@ -73,32 +65,42 @@ const Home = ({ user, onLogout }) => {
         // 2. Start Thinking
         setIsTyping(true);
 
-        // 3. Wait for 3 seconds
-        setTimeout(async () => {
-            const botMsg = {
-                userId: user.userId,
-                sessionId: currentSessionId,
-                title: title,
-                question: null, // Avoid duplicating the question bubble
-                answer: answer,
-                timestamp: new Date().toISOString()
-            };
+        try {
+            // 3. Get AI Response from Backend
+            const response = await fetch('/api/chat', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ question: text })
+            });
+
+            if (!response.ok) throw new Error('Failed to get AI response');
+
+            const data = await response.json();
+            const answer = data.answer;
 
             // Update UI with the real answer
-            setAllMessages(prev => [...prev.filter(m => !(m.sessionId === currentSessionId && m.question === text && m.answer === null)), { ...userMsg, answer: answer }]);
+            setAllMessages(prev => [
+                ...prev.filter(m => !(m.sessionId === currentSessionId && m.question === text && m.answer === null)),
+                { ...userMsg, answer: answer }
+            ]);
             setIsTyping(false);
 
-            // Save to backend
-            try {
-                await fetch('/api/save-chat', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ ...userMsg, answer: answer })
-                });
-            } catch (err) {
-                console.error('Error saving chat:', err);
-            }
-        }, 3000);
+            // 4. Save to backend history
+            await fetch('/api/save-chat', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ ...userMsg, answer: answer })
+            });
+        } catch (err) {
+            console.error('Error in chat:', err);
+            const errorMsg = "Abeg, I get small issue for my brain, I no fit answer you now. Try again later.";
+
+            setAllMessages(prev => [
+                ...prev.filter(m => !(m.sessionId === currentSessionId && m.question === text && m.answer === null)),
+                { ...userMsg, answer: errorMsg }
+            ]);
+            setIsTyping(false);
+        }
     };
 
     const startNewChat = () => {
